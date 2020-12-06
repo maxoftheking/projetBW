@@ -1,0 +1,235 @@
+article{
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.premDiapo{
+    width: 1700px;
+    height: 515px;
+    margin: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0px 15px 10px -5px #777;
+    background-color: #EDEDED;
+    background-size: contain;
+    animation: fondu 15s ease-in-out infinite both;
+
+}
+#art1{
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.premDiapo:hover{
+    animation-play-state: paused;
+}
+
+#info1{
+    background-color: #774936;
+    text-align: center;
+    color: rgb(29, 29, 29);
+}
+#info1 h2{
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 400;
+    color: white;
+}
+#info1 p{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+}
+#info1 .instagramImg{
+    margin: 10px;
+    padding: 10px;
+    width: 75px;
+}
+#info1 .facebookImg{
+    margin: 10px;
+    width: 75px;
+    padding: 10px;
+}
+.lesQuatreBox{
+    background-color: rgb(37, 42, 51);
+    padding-bottom: 50px;
+}
+.box{
+	display: flex;
+	text-align: center;
+    width: auto;
+}
+
+#b0{
+    background-image: url("../img/cp.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 200px;
+}
+
+#b1{
+    background-image: url("../img/mc.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 400px;
+}
+
+#b2{
+    background-image: url("../img/pe.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 200px;
+}
+
+#b3{
+    background-image: url("../img/tpom.png") ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-left: 400px;
+}
+
+.box-u{
+	width: 500px;
+	height: 600px;
+	float: left;
+    margin: 5px;
+    margin-top: 15px;
+    background: #f77f00;
+    border-radius: 30px;
+}
+.box-open{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+
+#box0{
+	display: none;
+    background-color:#2227;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#box1{
+    display: none;
+    background-color:#2227;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#box2{
+    display: none;
+    background-color:#2227;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#box3{
+	display: none;
+    background-color:#2227;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.box-i{
+	width: 100%;
+	height: 400px;
+	float: left;
+	margin: 5px;
+}
+.photoBoxG{
+    height: 97%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 5px;
+    border-radius: 5px;
+    width: 350px;
+}
+#photoBox1{
+    background-image: url("../img/cp.png");
+}#photoBox2{
+    background-image: url("../img/mc.png");
+}#photoBox3{
+    background-image: url("../img/pe.png");
+}#photoBox4{
+    background-image: url("../img/tpom.png");
+}
+.descriptionBoxG p{
+    padding-top: 50px;
+    padding-left: 25px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.nomProduits{
+    color: white;
+    font-size: 40px;
+    margin-top: 525px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#canelet{
+    width: 100%;
+}
+#trou{
+    height: 650px;
+}
+#info2{
+    background-color: #774936;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+#info2 h2{
+    color: white;
+    font-size: 45px;
+    padding: 5px;
+}
+#info2 p{
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+    line-height: 50px;
+}
+#info3{
+    background-color: white;
+    padding-top: 50px;
+    height: 550px;
+}#info3 h2, #info3 h3{
+    color:  rgb(29, 29, 29);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 200px;
+    padding: 10px;
+}#info3 p{
+    color: gray;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 200px;
+}
+#contact{
+    float: left;
+}
+#map{
+    float: left;
+    margin-left: 200px;
+}
+@keyframes fondu{
+    0%{background-image: url("../img/diap1choco.png");}
+    20%{background-image: url("../img/diap1choco.png");}
+    30%{background-image: url("../img/diap2qual.png");}
+    60%{background-image: url("../img/diap2qual.png");}
+    70%{background-image: url("../img/diap3art.png");}
+    90%{background-image: url("../img/diap3art.png");}
+    100%{background-image: url("../img/diap1choco.png");}
+}

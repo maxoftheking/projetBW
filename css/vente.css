@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+article{
+	background: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.container{
+    width: 90%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	margin: 0px auto;
+	border: 1px solid #000;
+}
+
+.title{
+	text-align: center;
+}
+
+.h3{
+	font-weight: bold;
+}
+
+.info{
+    width: 90%;
+    margin: 4% auto; 
+	display: flex;
+	font-size: 20px;
+	
+}
+
+.info-detail{
+ 	width: 20%;
+}
+
+.info-sp{
+	width: 5%;
+}
+
+.info-magasin{
+	width: 40%;
+}
+
+.info-title{
+	text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.info-date-tele{
+	display: flex;
+	font-size: 24px;
+}
+
+.info-left{
+	width: 25%;
+	text-align: left;
+}
+
+.info-right{
+	width: 75%;
+	text-align: right;
+}
+
+
+
+.info-map{
+	width: auto;
+}

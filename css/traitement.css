@@ -1,0 +1,16 @@
+.repMess{
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin-bottom: 250px;
+    margin-top: 250px;
+    margin-left: 150px;
+
+}
+.repMess h2{
+    font-weight: bold; 
+    color: rgb(43, 43, 43);
+    font-size: 30px;
+}

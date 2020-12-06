@@ -1,0 +1,62 @@
+
+.form, .info{
+    float: left;
+    margin: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Montserrat', Arial, sans-serif;
+
+}
+.info{
+    margin-left: 300px;
+    line-height: 250%;
+}
+.form{
+    margin-bottom: 100px;
+}
+.form h2, .info h2{
+    font-weight: bold; 
+    color: rgb(43, 43, 43);
+    font-size: 30px;
+}
+.form p, .info p{
+    font-size: 20px;
+}
+.info span{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.form input, .form select, .form textarea{
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+
+}
+#message{
+    width: 515px;
+    height: 300px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+#envoyer{
+    height: 35px;
+    width: 515px;
+    margin-top: 25px;
+    background-color: #774936;
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#nom, #prenom, #email, #tel{
+    width: 250px;
+    height: 25px;
+    
+}
+#paragraphe{
+    margin: 10px;
+}
+
